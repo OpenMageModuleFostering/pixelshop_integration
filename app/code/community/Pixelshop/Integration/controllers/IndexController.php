@@ -1,12 +1,9 @@
 <?php
 
-class Pixelshop_Integration_IndexController extends Mage_Adminhtml_Controller_Action
-{
- 
-	public function indexAction() 
-	{
+class Pixelshop_Integration_IndexController extends Mage_Core_Controller_Front_Action {
+	
+	public function IndexAction() {
 		$this->loadLayout();
-        $this->renderLayout();
+		$this->renderLayout(); 
 	}
-
 }

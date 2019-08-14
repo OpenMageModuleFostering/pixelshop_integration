@@ -79,4 +79,14 @@
 			</resources>
 		</acl>
     </adminhtml>
+
+	<frontend>
+		<layout>
+			<updates>
+				<pixelshop>
+					<file>pixelshop.xml</file>
+				</pixelshop>
+			</updates>
+		</layout>
+	</frontend>
 </config>
