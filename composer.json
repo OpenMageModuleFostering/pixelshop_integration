@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Pixelshop_Integration",
+    "name": "OpenMageModuleFostering\/Pixelshop_Integration",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "Pixelshop - Visual Commerce | Visual Marketing - Integration allow you to export all of your products and track conversions.",
     "authors": [
-    {
-        "name": "Rafael Mor",
-        "email": "hello@pixelshop.io"
-    }
-],
+        {
+            "name": "Rafael Mor",
+            "email": "hello@pixelshop.io"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
